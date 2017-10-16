@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gen42 Store</string>
+    <string name="app_name">Gen42_Store_Mobile</string>
     <!--Titulos-->
     <string name="tt_m_login">Which type of user are you?</string>
     <string name="tt_manage">Manage customers</string>
@@ -132,6 +132,8 @@
     <string name="title_activity_starting_animation">StartingAnimation</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
 
 
 </resources>

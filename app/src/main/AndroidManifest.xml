@@ -10,14 +10,20 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".login_helper"
-            android:label="@string/app_name">
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_splash_screen"
+            android:theme= "@style/AppTheme.NoActionBar"
+            android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".login_helper"
+            android:label="Gen42 Store" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" />
@@ -57,11 +63,11 @@
         <activity
             android:name=".agregar_address_customer"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".agregar_cart_rules_manage"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".manage_suppliers"
             android:label="@string/app_name" />
@@ -84,6 +90,7 @@
         <activity
             android:name=".end_shopping"
             android:label="@string/app_name" />
+
     </application>
 
 </manifest>
