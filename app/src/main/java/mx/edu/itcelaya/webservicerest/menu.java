@@ -114,6 +114,14 @@ public class menu extends AppCompatActivity implements View.OnClickListener{
             btnOrderHistory.setVisibility(View.GONE);
             btnAddresses.setVisibility(View.GONE);
             btnCouponCustomer.setVisibility(View.GONE);
+            // additional admin functions
+            btnManageProviders.setVisibility(View.GONE);
+            btnListProviders.setVisibility(View.GONE);
+            btnManageOrders.setVisibility(View.GONE);
+            btnListOrders.setVisibility(View.GONE);
+            btnManageCoupon.setVisibility(View.GONE);
+            btnManageAddress.setVisibility(View.GONE);
+            btnListAddress.setVisibility(View.GONE);
         }
         //customer
         if(opc==2){
@@ -131,6 +139,8 @@ public class menu extends AppCompatActivity implements View.OnClickListener{
             btnManageCoupon.setVisibility(View.GONE);
             btnManageAddress.setVisibility(View.GONE);
             btnListAddress.setVisibility(View.GONE);
+            btnAddresses.setVisibility(View.GONE);
+
         }
     }
 
@@ -217,7 +227,7 @@ public class menu extends AppCompatActivity implements View.OnClickListener{
                 startActivity(intentAddresses);
                 break;
             case R.id.bt_coupons_customer:
-                Intent intentListCartRulesCustomer = new Intent(getApplicationContext(), call_listCartRules.class);
+                Intent intentListCartRulesCustomer = new Intent(getApplicationContext(), call_listProducts.class);
                 intentListCartRulesCustomer.putExtra("id_customer", getIntent().getStringExtra("id_customer"));
                 startActivity(intentListCartRulesCustomer);
                 break;

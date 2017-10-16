@@ -36,6 +36,7 @@
     <string name="bt_listOrders">List orders</string>
     <string name="bt_manageCoupon">Discount vouchers</string>
     <!--customer menu-->
+    <string name="bt_browse_products">Browse products</string>
     <string name="bt_personal_data">Personal data</string>
     <string name="bt_order_new">New order</string>
     <string name="bt_order_history">Orders history</string>

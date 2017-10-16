@@ -199,8 +199,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bt_order_new"
-                android:id="@+id/bt_order_new"
+                android:text="@string/bt_browse_products"
+                android:id="@+id/bt_coupons_customer"
                 android:layout_marginBottom="20dp"
                 android:layout_marginEnd="80dp"
                 android:layout_marginLeft="80dp"
@@ -232,8 +232,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bt_coupons_customer"
-                android:id="@+id/bt_coupons_customer"
+                android:text="@string/bt_order_new"
+                android:id="@+id/bt_order_new"
                 android:layout_marginBottom="20dp"
                 android:layout_marginEnd="80dp"
                 android:layout_marginLeft="80dp"

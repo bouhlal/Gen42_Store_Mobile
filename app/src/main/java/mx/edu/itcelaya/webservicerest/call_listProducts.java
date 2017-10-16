@@ -127,7 +127,7 @@ public class call_listProducts extends AppCompatActivity {
         try {
             JSONObject jsonResponse = new JSONObject(jsonResult);
             JSONArray jsonMainNode = jsonResponse.optJSONArray("products");
-            for (int i = 0; i < jsonMainNode.length(); i++) {
+            for (int i = 1; i < jsonMainNode.length(); i++) {
                 JSONObject jsonChildNode = jsonMainNode.getJSONObject(i);
                 JSONArray NameNode = jsonChildNode.optJSONArray("name"); // Parsing the "name" node
                 JSONObject NameObject = NameNode.getJSONObject(0);       // to extract the "value"
